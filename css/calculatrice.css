@@ -1,0 +1,153 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+.toppart {
+  width: 330px;
+  margin-bottom: 10px;
+}
+
+.toppart .child1 input {
+  height: 75px;
+  font-size: xx-large;
+  width: 330px;
+  padding: .5rem;
+  background-color: #ededed;
+  border: none;
+  -webkit-box-shadow: 1px 1px 1px 1px #ddd, 1px 1px 1px 1px #dddddd;
+          box-shadow: 1px 1px 1px 1px #ddd, 1px 1px 1px 1px #dddddd;
+  z-index: 200;
+  direction: rtl;
+  outline: none;
+  caret-color: transparent;
+  margin-top: 25px;
+  margin-bottom: 1px;
+  border-radius: .3rem;
+}
+
+.toppart .child1 input:focus {
+  border: none;
+}
+
+div.parent {
+  position: absolute;
+  top: 192px;
+  padding-left: 1rem;
+  padding-right: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 330px;
+  background-color: #d1cccc;
+  height: 300px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (1fr)[5];
+      grid-template-rows: repeat(5, 1fr);
+  gap: 11px 11px;
+  border-radius: 4px;
+}
+
+div.parent button {
+  background-color: #e3e3e3;
+  max-width: 500px;
+  width: 66px;
+  border: 1px 1px solid #ddd;
+  outline: none;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  -webkit-box-shadow: 1px 1px 5px grey;
+          box-shadow: 1px 1px 5px grey;
+  border-color: rgba(141, 141, 141, 0.8);
+}
+
+.parent button.child6 {
+  color: white;
+  background-color: #028bc2;
+}
+
+.main {
+  position: relative;
+  left: 20%;
+  top: 60px;
+  height: 600px;
+  width: 400px;
+  background-color: #e6e6e6;
+  text-align: center;
+  padding-left: 38px;
+  padding-top: 2rem;
+  border-radius: .6rem;
+}
+
+.toppart .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.toppart .box .child1 {
+  width: 100px;
+}
+
+.btn-p {
+  position: relative;
+  left: 75px;
+  top: 0px;
+  width: 60px;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.circle {
+  position: absolute;
+  left: 0;
+  margin: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background-color: tomato;
+  border: none;
+}
+
+div.ch {
+  word-spacing: 8px;
+  margin-left: 4.8rem;
+}
+
+.btn-p span.before {
+  background-color: #d1cccc;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 8px;
+  z-index: 100;
+}
+
+.btn-p span.after {
+  margin-top: 5px;
+  background-color: #d1cccc;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 8px;
+}
+
+.btn-p span.between {
+  margin-top: 5px;
+  background-color: #d1cccc;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 8px;
+}
+/*# sourceMappingURL=calculatrice.css.map */
